@@ -1,0 +1,76 @@
+*{
+    background-color:#202124;
+    color: beige;
+
+}
+
+header{
+    padding: 3%;
+}
+
+h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container div{
+    height: 300px;
+}
+.container div img{
+    height: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.container div :hover{
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 80px 20px;
+    margin-top: 60px;
+
+
+    color: #5a2635;
+}
+
+footer h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin: 0 0 10px;
+
+    color: #d6336c;
+}
+
+footer h2::after {
+    content: " ♥";
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+}
+
+footer p {
+    font-family: "Poppins", sans-serif;
+    margin: 8px 0;
+    font-size: 1rem;
+    color: #754050;
+}
+
+footer p:last-child {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    color: #a65a70;
+}
